@@ -21,6 +21,10 @@ nav {
 .nav-link {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
+    /* margin-top: -12px;
+    margin-bottom: -12px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
 }
 
 h1 {
@@ -82,6 +86,13 @@ img {
     position: relative;
 }
 
+#imgContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
@@ -129,4 +140,8 @@ h6 {
     .nav {
         margin: auto;
     }
+
+    /* *, ::after, ::before {
+        box-sizing: content-box;
+    } */
 }
