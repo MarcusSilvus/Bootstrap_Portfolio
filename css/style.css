@@ -21,10 +21,9 @@ nav {
 .nav-link {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-    /* margin-top: -12px;
-    margin-bottom: -12px;
-    padding-top: 10px;
-    padding-bottom: 10px; */
+    padding: 0px;
+    margin-right: 10px;
+    margin-left: 15px;
 }
 
 h1 {
@@ -58,13 +57,13 @@ img {
     margin-bottom: 70px;
 }
 
-/* .link-border {
+.link-border {
     border-right-style: solid;
     border-right-color: #cccccc;
     border-width: 0px 2px 0px 0px;
     padding-right: 15px;
-    padding-left: 15px;
-} */
+    margin-right: 5px;
+} 
 
 .btn {
     background-color: #4aaaa5; 
@@ -135,13 +134,14 @@ h6 {
     h2 {
         width: 100%;
         text-align: center;
+        margin-bottom: 10px;
     }
 
     .nav {
         margin: auto;
     }
 
-    /* *, ::after, ::before {
-        box-sizing: content-box;
-    } */
+    #navItems {
+        padding-bottom: 10px;
+    }
 }
