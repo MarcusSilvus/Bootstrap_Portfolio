@@ -134,6 +134,16 @@ p {
     margin: 20px;
 }
 
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #cccccc;
+}
+
 @media (max-width: 640px) { 
     h2 {
         width: 100%;
